@@ -1,0 +1,86 @@
+{
+  "id": "8d1b220f-352f-4e9c-a5f8-2f32d83a9a82",
+  "name": "Биология 11 класс",
+  "description": "course description",
+  "image": "bi2.jpg",
+  "selected-block": null,
+  "menu_path": "",
+  "sections": [
+    {
+      "id": "31695c40-8607-42a2-9bbd-6900c200fac7",
+      "name": "Введение секция1",
+      "subsections": [
+        {
+          "id": "e88790dc-2412-43be-a4e8-c82056ee5460",
+          "name": "Введение подсекция1",
+          "blocks": [
+            {
+              "id": "824f7b45-d2b1-4bf2-a4d7-8d1c8155796f",
+              "parent": [
+                "8d1b220f-352f-4e9c-a5f8-2f32d83a9a82",
+                "31695c40-8607-42a2-9bbd-6900c200fac7",
+                "e88790dc-2412-43be-a4e8-c82056ee5460"
+              ],
+              "name": "Введение_блок1",
+              "path": "block-1-1.json"
+            },
+            {
+              "id": "8538013b-a9f6-47a4-8275-5e3172830e72",
+              "parent": [
+                "8d1b220f-352f-4e9c-a5f8-2f32d83a9a82",
+                "31695c40-8607-42a2-9bbd-6900c200fac7",
+                "e88790dc-2412-43be-a4e8-c82056ee5460"
+              ],
+              "name": "Блок 2",
+              "path": "block-1-2.json"
+            }
+          ]
+        },
+        {
+          "id": "875cae19-1842-4bc3-a373-9f08a2403df0",
+          "name": "Подраздел 1-2",
+          "blocks": [
+            {
+              "id": "ad303941-4081-4f4c-969f-f0a72c489b80",
+              "parent": [
+                "8d1b220f-352f-4e9c-a5f8-2f32d83a9a82",
+                "31695c40-8607-42a2-9bbd-6900c200fac7",
+                "875cae19-1842-4bc3-a373-9f08a2403df0"
+              ],
+              "name": "Блок 2",
+              "path": "block-1-2.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24964139-fe18-4349-b246-f3180bdf4f3b",
+      "name": "Раздел 2",
+      "subsections": [
+        {
+          "id": "e82963e2-ec7a-4264-9336-3d93ad292da7",
+          "name": "Подраздел 2-1",
+          "blocks": [
+            {
+              "id": "d78a0f1d-9caf-46bf-bb1d-d71a94eeae1e",
+              "name": "Блок 1",
+              "path": "block-2-1.json"
+            }
+          ]
+        },
+        {
+          "id": "329ad244-a4b7-40ec-b40c-0f88cc95a020",
+          "name": "Подраздел 2-2",
+          "blocks": [
+            {
+              "id": "19aed44f-f168-4a37-94d7-3dd09f2c14dc",
+              "name": "Блок 1",
+              "path": "block-2-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

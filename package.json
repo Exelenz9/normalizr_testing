@@ -1,0 +1,13 @@
+{
+  "name": "norm_test",
+  "version": "0.0.1",
+  "devDependencies": {
+    "react-scripts": "^1.0.1"
+  },
+  "dependencies": {
+    "normalizr": "^3.2.3"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  }
+}

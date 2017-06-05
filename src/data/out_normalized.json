@@ -1,0 +1,90 @@
+{
+  "entities": {
+    "components": {
+      "0": {
+        "id": "0",
+        "name": "XMarkdown",
+        "title": "title",
+        "isVisible": true,
+        "text": "# This is a header\n\n## And this is a paragraph\n\n * Follows the [CommonMark](http://commonmark.org/) spec \n* Renders actual, \"native\" React DOM elements \n* Allows you to escape or skip HTML (try toggling the checkboxes above) \n* If you escape or skip the HTML, no \"dangerouslySetInnerHTML\" is used! Yay!"
+      },
+      "1": {
+        "id": "1",
+        "name": "XCheckbox",
+        "title": "title",
+        "variant": 0,
+        "isVisible": true,
+        "variants": [
+          0,
+          1
+        ]
+      }
+    },
+    "options": {
+      "0_0": {
+        "id": 0,
+        "text": "Да",
+        "imgId": 1234,
+        "isValid": true,
+        "checked": false
+      },
+      "0_1": {
+        "id": 1,
+        "text": "Нет",
+        "imgId": 12345,
+        "isValid": false,
+        "checked": false
+      },
+      "1_0": {
+        "id": 0,
+        "text": "Да",
+        "imgId": 1234,
+        "isValid": true,
+        "checked": false
+      },
+      "1_1": {
+        "id": 1,
+        "text": "Нет",
+        "imgId": 12345,
+        "isValid": true,
+        "checked": false
+      }
+    },
+    "variants": {
+      "0": {
+        "id": 0,
+        "name": "name1",
+        "question": "Водоросли обитают только в воде 0?",
+        "points": 1,
+        "attempts": 3,
+        "valid": 1,
+        "options": [
+          "0_0",
+          "0_1"
+        ]
+      },
+      "1": {
+        "id": 1,
+        "name": "name2",
+        "question": "Водоросли обитают только в воде 1?",
+        "points": 1,
+        "attempts": 3,
+        "valid": 1,
+        "options": [
+          "1_0",
+          "1_1"
+        ]
+      }
+    }
+  },
+  "result": {
+    "components": [
+      "0",
+      "1"
+    ],
+    "images": [
+      "image1.jpg",
+      "image2.jpg"
+    ]
+  }
+}

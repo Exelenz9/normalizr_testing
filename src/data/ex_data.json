@@ -1,0 +1,8 @@
+{
+  "id_str": "123",
+  "url": "https://twitter.com",
+  "user": {
+    "id_str": "456",
+    "name": "Jimmy"
+  }
+}
